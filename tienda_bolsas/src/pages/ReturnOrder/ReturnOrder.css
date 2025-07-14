@@ -1,0 +1,36 @@
+.return-order {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+
+.return-order .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.return-order input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: black;
+  box-sizing: border-box;
+}
+
+.return-order .multi-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.return-order button {
+  border: none;
+  color: white;
+  background-color: #4f46e5;
+  width: max(15vw, 200px);
+  padding: 12px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}

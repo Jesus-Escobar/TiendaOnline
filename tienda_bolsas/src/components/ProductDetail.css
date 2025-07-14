@@ -1,0 +1,58 @@
+.catalog-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #00000015;
+  transition: 0.3s;
+  animation: fadeIn 1s;
+}
+
+.catalog-item-image {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.catalog-item-info {
+  padding: 20px;
+}
+
+.catalog-item-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.catalog-item-desc {
+  color: #676767;
+  font-size: 12px;
+}
+
+.catalog-item-price {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.catalog-item-price-addToCart {
+  display: flex;
+  gap: 30px;
+}
+
+.catalog-item-addToCart-button {
+  background-color: bisque;
+  color: black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 9999px; /* pill shape */
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.catalog-item-addToCart-button:hover {
+  background-color: #dabea2;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}

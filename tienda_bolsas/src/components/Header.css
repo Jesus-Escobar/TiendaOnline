@@ -1,10 +1,11 @@
 .header {
-  height: 50vw;
+  height: 30vw;
   margin: 30px auto;
   background: url('../assets/bolsa_home.png') no-repeat;
   background-size: cover;
   position: relative;
   border-radius: 25px;
+  margin-top: 150px;
 }
 
 .header-contents {
@@ -12,10 +13,10 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 1.5 vw;
+  gap: 0.3vw;
   max-width: 50%;
   bottom: 10%;
-  left: 6vw;
+  left: 4vw;
   animation: fadeIn 3s;
 }
 
@@ -38,4 +39,5 @@
   background-color: white;
   font-size: max(1vw, 13px);
   border-radius: 50px;
+  cursor: pointer;
 }
